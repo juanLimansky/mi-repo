@@ -1,0 +1,264 @@
+.bg--Header {
+  background-image: url(../Assets/Imagenes/fotoheader.png);
+  background-size: cover;
+  padding: 100px;
+  margin-bottom: 20px; }
+
+.items--Menu {
+  color: white !important;
+  font-family: 'Open Sans', sans-serif; }
+
+#botonHamburguesa {
+  background-color: white; }
+
+.titulo {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 120px;
+  color: white;
+  padding-top: 50px;
+  transform: translateY(30px); }
+
+.bajada {
+  text-align: center;
+  padding-bottom: 200px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #C2B280;
+  transform: translateY(30px); }
+
+.foto--Resto {
+  height: 550px; }
+
+.subtitulo {
+  text-align: center;
+  color: #C2B280;
+  font-size: 34px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-top: 75px;
+  margin-bottom: 28px; }
+
+.frase {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.boton--Menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 75px; }
+
+.color--Boton {
+  color: #C2B280; }
+
+.bg--Footer {
+  background-color: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 30px; }
+
+.logo--Footer {
+  margin-left: 160px; }
+
+.titulo--Horarios {
+  color: white;
+  transform: translateX(90px); }
+
+.tabla--Horarios {
+  color: white;
+  opacity: 80%;
+  transform: translateX(90px); }
+
+.redes--Sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-right: 180px; }
+
+.redes--Sociales li a {
+  position: relative;
+  display: block;
+  transition: .5s;
+  margin: 5px; }
+
+.redes--Sociales li a:hover {
+  transform: scale(1.2); }
+
+.opciones {
+  justify-content: center; }
+
+.pasos {
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+.ubicacion--Barra {
+  padding-right: 5px;
+  transform: translate(300px, -60px); }
+
+.ubicacion--Logo {
+  padding-top: 36px;
+  transform: translateX(-180px); }
+
+.titulo--Seccion, .titulo--SeccionR {
+  text-align: center;
+  color: #C2B280;
+  font-size: 70px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  padding-top: 30px; }
+
+.fotos--Menu {
+  width: 450px;
+  height: 320px; }
+
+.nombres--Platos {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #C2B280;
+  font-size: 21px;
+  font-style: italic;
+  padding-top: 10px; }
+
+.descripcion--Platos {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 18px;
+  padding-bottom: 20px; }
+
+.texto--Bebidas {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 18px; }
+
+.volver--Arriba {
+  text-align: right;
+  font-size: 20px;
+  color: black;
+  padding-bottom: 20px;
+  padding-top: 70px;
+  text-decoration: underline; }
+
+.seccion--MenuE {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 42px;
+  color: #C2B280;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+.seccion--Menu {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 42px;
+  color: #C2B280;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 50px; }
+
+.seccion--contacto {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 32px;
+  color: #C2B280;
+  padding-bottom: 16px; }
+
+div h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px; }
+
+.texto--ubic {
+  display: flex;
+  flex-direction: row;
+  padding: 10px; }
+
+.espacio--texto--ubic {
+  padding-left: 20px; }
+
+.tabla--HorariosC {
+  color: black; }
+
+.seccion--contacto--horarios {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 32px;
+  color: #C2B280;
+  padding-top: 20px;
+  padding-bottom: 16px; }
+
+.titulo--SeccionG {
+  text-align: center;
+  color: #C2B280;
+  font-size: 56px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  padding-top: 30px; }
+
+.bajada--galeria {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px; }
+
+.texto--galeria {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px; }
+
+h2 span {
+  color: #C2B280; }
+
+.titulo--SeccionR {
+  padding-bottom: 30px; }
+
+.fotoR {
+  width: 350px;
+  height: 250px;
+  transition: 1s;
+  padding: 20px; }
+
+.fotoR:hover {
+  transform: scale(1.3, 1.3); }
+
+@media only screen and (max-width: 360px) {
+  .titulo {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5px; }
+  .bajada {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px; }
+  .foto--Resto {
+    height: 200px; }
+  .logo--Footer {
+    display: block;
+    margin: auto; }
+  .titulo--Horarios {
+    transform: translateX(0px);
+    text-align: center; }
+  .tabla--Horarios {
+    transform: translateX(0px); }
+  .redes--Sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .fotos--Menu {
+    height: 200px;
+    width: auto; }
+  .descripcion--Platos {
+    font-size: 12px; }
+  .volver--Arriba {
+    font-size: 19px; }
+  .ubicacion--Logo {
+    transform: translateX(25px); }
+  .ubicacion--Barra {
+    transform: translate(0px); } }
