@@ -282,3 +282,13 @@ h2 span {
 	transform: translate(0px);
 }
 }
+@media only screen and (min-width: 360px) and (max-width: 768px)
+{
+.fotos--Menu {
+	height: 200px;
+	width: auto;
+}	
+.ubicacion--Logo {
+	transform: translateX(0px);
+}
+}
