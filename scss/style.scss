@@ -311,18 +311,31 @@ h2 span {
 .fotos--Menu {
 	display: block;
 	margin: auto;
-	height: 300px;
-	width: auto;
 	margin-top: 50px;
 }	
 .seccion--Menu {
-	font-size: 32px;
+	font-size: 38px;
 	justify-self: center;
 	margin-top: 0px;
 	padding: 10px;
 }
 .seccion--MenuE {
-	font-size: 32px;
+	font-size: 38px;
+}
+.nombres--Platos {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color: #C2B280;
+	font-size: 28px;
+	font-style: italic;	
+	padding-top: 10px;	
+}
+.descripcion--Platos {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 21px;
+	padding-bottom: 20px;
 }
 .volver--Arriba {
 	font-size: 15px;
