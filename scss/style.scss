@@ -265,15 +265,39 @@ h2 span {
 	flex-direction: row;
 	justify-content: center;
 }
-.fotos--Menu {
-	height: 200px;
-	width: auto;
+.seccion--Menu {
+	font-size: 32px;
+	justify-self: center;
+	margin-top: 0px;
 }
-.descripcion--Platos {
-	font-size: 12px;
+.seccion--MenuE {
+	font-size: 32px;
 }
 .volver--Arriba {
-	font-size: 19px;
+	font-size: 15px;
+	justify-self: flex-start;
+}
+.fotos--Menu {
+	display: block;
+	margin: auto;
+	height: 200px;
+	width: auto;
+	margin-top: 50px;
+}	
+.nombres--Platos {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color: #C2B280;
+	font-size: 24px;
+	font-style: italic;	
+	padding-top: 10px;	
+}
+.descripcion--Platos {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size: 15px;
+	padding-bottom: 20px;
 }
 .ubicacion--Logo {
 	transform: translateX(25px);
@@ -282,13 +306,35 @@ h2 span {
 	transform: translate(0px);
 }
 }
-@media only screen and (min-width: 360px) and (max-width: 768px)
+@media only screen and (max-width:768px)
 {
 .fotos--Menu {
-	height: 200px;
+	display: block;
+	margin: auto;
+	height: 300px;
 	width: auto;
+	margin-top: 50px;
 }	
-.ubicacion--Logo {
-	transform: translateX(0px);
+.seccion--Menu {
+	font-size: 32px;
+	justify-self: center;
+	margin-top: 0px;
+	padding: 10px;
+}
+.seccion--MenuE {
+	font-size: 32px;
+}
+.volver--Arriba {
+	font-size: 15px;
+	justify-self: flex-start;
+	padding: 10px;
+}
+.redes--Sociales {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.ubicacion--Barra {
+	transform: translate(0px);
 }
 }
