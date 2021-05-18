@@ -133,6 +133,9 @@
   font-size: 18px;
   padding-bottom: 20px; }
 
+.prueba {
+  display: flex; }
+
 .texto--Bebidas {
   font-family: 'Open Sans', sans-serif;
   color: black;
@@ -144,7 +147,8 @@
   color: black;
   padding-bottom: 20px;
   padding-top: 70px;
-  text-decoration: underline; }
+  text-decoration: underline;
+  transform: translateX(900px); }
 
 .seccion--MenuE {
   font-family: 'Playfair Display', serif;
@@ -257,12 +261,13 @@ h2 span {
   .seccion--Menu {
     font-size: 32px;
     justify-self: center;
-    margin-top: 0px; }
+    margin-top: 0px;
+    padding-right: 50px; }
   .seccion--MenuE {
     font-size: 32px; }
   .volver--Arriba {
-    font-size: 15px;
-    padding-top: 0px; }
+    font-size: 13px;
+    padding-top: 35px; }
   .fotos--Menu {
     display: block;
     margin: auto;
