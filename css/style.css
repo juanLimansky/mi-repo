@@ -155,6 +155,7 @@
   padding-top: 20px; }
 
 .seccion--Menu {
+  display: inline-block;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 42px;
@@ -229,6 +230,8 @@ h2 span {
   transform: scale(1.3, 1.3); }
 
 @media only screen and (max-width: 360px) {
+  .prueba {
+    display: flex; }
   .titulo {
     font-size: 50px;
     text-align: center;
@@ -259,7 +262,7 @@ h2 span {
     font-size: 32px; }
   .volver--Arriba {
     font-size: 15px;
-    justify-self: flex-start; }
+    padding-top: 0px; }
   .fotos--Menu {
     display: block;
     margin: auto;
@@ -284,7 +287,7 @@ h2 span {
   .ubicacion--Barra {
     transform: translate(0px); } }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 361px) and (max-width: 768px) {
   .fotos--Menu {
     display: block;
     margin: auto;
