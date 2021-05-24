@@ -300,6 +300,12 @@ h2 span {
 .volver--Arriba {
 	font-size: 13px;
 	padding-top: 35px;
+	transform: translateX(0px);
+}
+.volver--ArribaPP {
+	font-size: 13px;
+	padding-top: 35px;
+	transform: translateX(0px);
 }
 .fotos--Menu {
 	display: block;
@@ -334,43 +340,53 @@ h2 span {
 	margin-bottom: 40px;
 }
 .seccion--contacto {
-	font-size: 20px;
+    font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 60px;
+	color: #C2B280;
+    padding-bottom: 16px;
+	text-align: center;
 }
 div h4 {
-	font-size: 8px;
+	font-size: 18px;
 }
 .iconos--contacto {
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 }
 .seccion--contacto--horarios {
-	font-size: 20px;
+	font-size: 50px;
 }
 .tabla--HorariosC {
-	font-size: 8px;
+	font-size: 21px;
+}
+.mapa {
+	width: auto;
 }
 }
 @media (min-width: 361px) and (max-width: 768px)
 {
-.fotos--Menu {
-	display: block;
-	margin: auto;
-	margin-top: 50px;
-}	
 .seccion--Menu {
-	font-size: 38px;
+	font-size: 50px;
 	justify-self: center;
 	margin-top: 0px;
 	padding: 10px;
 }
 .seccion--MenuE {
-	font-size: 38px;
+	font-size: 50px;
 }
+.fotos--Menu {
+	display: block;
+	margin: auto;
+	height: 400px;
+	width: auto;
+	margin-top: 50px;
+}	
 .nombres--Platos {
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 	color: #C2B280;
-	font-size: 28px;
+	font-size: 40px;
 	font-style: italic;	
 	padding-top: 10px;	
 }
@@ -382,9 +398,16 @@ div h4 {
 	padding-bottom: 20px;
 }
 .volver--Arriba {
-	font-size: 15px;
+	font-size: 20px;
 	justify-self: flex-start;
 	padding: 10px;
+	transform: translateX(300px);
+}
+.volver--ArribaPP {
+	font-size: 20px;
+	justify-self: flex-start;
+	padding: 10px;
+	transform: translateX(120px);
 }
 .redes--Sociales {
 	display: flex;
@@ -392,7 +415,7 @@ div h4 {
 	justify-content: center;
 }
 .ubicacion--Barra {
-	transform: translate(-90px);
+	transform: translate(-10px);
 }
 .logo--Footer {
 	display: block;
@@ -405,6 +428,23 @@ div h4 {
 .tabla--Horarios {
 	transform: translateX(0px);
 	margin: auto;
+}
+.seccion--contacto {
+    font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 60px;
+	color: #C2B280;
+    padding-bottom: 16px;
+}
+div h4 {
+	font-size: 18px;
+}
+.iconos--contacto {
+	width: 20px;
+	height: 20px;
+}
+.seccion--contacto--horarios {
+	font-size: 50px;
 }
 .tabla--HorariosC {
 	margin-bottom: 40px;
