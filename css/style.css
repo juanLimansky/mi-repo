@@ -106,6 +106,9 @@
   padding-top: 36px;
   transform: translateX(-180px); }
 
+.sticky {
+  position: sticky; }
+
 .titulo--Seccion, .titulo--SeccionR {
   text-align: center;
   color: #C2B280;
