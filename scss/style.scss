@@ -111,7 +111,10 @@
     transform: translateX(-180px);
 }
 .sticky {
+	background-color: white;
 	position: sticky;
+	top: 0px;
+	z-index: 99999999999;
 }
 .titulo--Seccion {
 	text-align: center;
