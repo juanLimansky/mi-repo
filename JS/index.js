@@ -20,7 +20,7 @@ function pedido(){
 pedido();
 pedido();
 pedido();
-*/
+
 
 
 // DESAFÍO CLASE 5
@@ -44,5 +44,19 @@ while (pedido != "no") {
     console.log(menu1);
 
     pedido = prompt("¿Quiere hacer un pedido? si / no");
-}
+} */
+
+// DESAFIO CLASE 6
+
+const entradas = ["bruschetta", "burratta", "caprese", "ensalada", "ostras", "carpaccio"];
+
+const principales = ["tagliatelle", "spaghetti", "gnocchi", "pizza", "risotto", "piccata"]
+
+const platosSalados = entradas.concat(principales);
+
+console.log(platosSalados);
+
+
+
+
 
