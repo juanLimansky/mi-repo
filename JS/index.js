@@ -11,7 +11,7 @@ else {
     alert("El dato ingresado no es una edad")
 } 
 
-// DESAFÍO CLASE 4
+// DESAFÍO COMPLEMENTARIO CLASE 4
 
 function pedido(){
     let plato = prompt("¿Qué plato desea ordenar?");
@@ -44,7 +44,7 @@ while (pedido != "no") {
     console.log(menu1);
 
     pedido = prompt("¿Quiere hacer un pedido? si / no");
-} */
+} 
 
 // DESAFIO CLASE 6
 
@@ -54,9 +54,40 @@ const principales = ["tagliatelle", "spaghetti", "gnocchi", "pizza", "risotto", 
 
 const platosSalados = entradas.concat(principales);
 
-console.log(platosSalados);
+console.log(platosSalados); */
 
+// PRIMERA ENTREGA PROYECTO FINAL
 
+class Envio{
+    constructor(plato, precio){
+        this.plato = plato.toUpperCase(),
+        this.precio = Number(precio)
+    }
+}
 
+const pedido =[]
 
+function baseDeDatos (){
 
+let entrada = true
+
+do{
+    let plato = prompt("Ingrese el plato que desea ordenar")
+    let precio = prompt("Ingrese el precio de su plato")
+
+    let envio1 = new Envio(plato, precio)
+    pedido.push(envio1)
+    entrada = prompt("¿Quiere hacer otro pedido? s/n")
+}while(entrada == "s");
+}
+baseDeDatos()
+pedido.sort(function(a, b){
+    return(a.precio - b.precio)
+})
+
+console.log(pedido)
+
+let buscar = prompt("¿Qué plato quiere buscar?")
+let miCompra = pedido.find(element => element.plato == buscar.toUpperCase())
+
+console.log(miCompra)
