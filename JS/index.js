@@ -139,22 +139,19 @@ for (const entrada of entradas) {
     let div = document.createElement("div");
     div.innerHTML = `<img src=${entrada.foto}>
                     <h3>${entrada.nombre}</h3>
-                    <h4>${entrada.descripción} ($${entrada.precio})<h4>`;
-    document.body.appendChild(divEntradas);
-}
+                    <h4>${entrada.descripción} ($${entrada.precio})</h4>`;
+                    divEntradas.appendChild("div")}
 
 for (const platoPrincipal of platosPrincipales) {
     let div = document.createElement("div");
     div.innerHTML = `<img src=${platoPrincipal.foto}>
                     <h3>${platoPrincipal.nombre}</h3>
-                    <h4>${platoPrincipal.descripción} ($${platoPrincipal.precio})<h4>`;
-    document.body.appendChild(divPlatosPrincipales);
-}
+                    <h4>${platoPrincipal.descripción} ($${platoPrincipal.precio})</h4>`;
+                    divPlatosPrincipales.appendChild("div")}
 
 for (const postre of postres) {
     let div = document.createElement("div");
     div.innerHTML = `<img src=${postre.foto}>
                     <h3>${postre.nombre}</h3>
-                    <h4>${postre.descripción} ($${postre.precio})<h4>`;
-    document.body.appendChild(divPostres);
-}
+                    <h4>${postre.descripción} ($${postre.precio})</h4>`;
+                    divPostres.appendChild("div")}
