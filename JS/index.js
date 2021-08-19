@@ -137,25 +137,33 @@ const bebidas = [
 
 for (const entrada of entradas) {
     let div = document.createElement("div");
-    div.innerHTML = `<img src=${entrada.foto}>
-                    <h3>${entrada.nombre}</h3>
-                    <h4>${entrada.descripción} ($${entrada.precio})</h4>`;
+    div.innerHTML = `<img src=${entrada.foto} class="fotos--Menu img-fluid">
+                    <h3 class="nombres--Platos">${entrada.nombre}</h3>
+                    <h4 class="descripcion--Platos">${entrada.descripción} ($${entrada.precio})</h4>`;
                     divEntradas.appendChild(div)}
 
 for (const platoPrincipal of platosPrincipales) {
     let div = document.createElement("div");
-    div.innerHTML = `<img src=${platoPrincipal.foto}>
-                    <h3>${platoPrincipal.nombre}</h3>
-                    <h4>${platoPrincipal.descripción} ($${platoPrincipal.precio})</h4>`;
+    div.innerHTML = `<img src=${platoPrincipal.foto} class="fotos--Menu img-fluid">
+                    <h3 class="nombres--Platos">${platoPrincipal.nombre}</h3>
+                    <h4 class="descripcion--Platos">${platoPrincipal.descripción} ($${platoPrincipal.precio})</h4>`;
                     divPlatosPrincipales.appendChild(div)}
 
 for (const postre of postres) {
     let div = document.createElement("div");
-    div.innerHTML = `<img src=${postre.foto}>
-                    <h3>${postre.nombre}</h3>
-                    <h4>${postre.descripción} ($${postre.precio})</h4>`;
+    div.innerHTML = `<img src=${postre.foto} class="fotos--Menu img-fluid">
+                    <h3 class="nombres--Platos">${postre.nombre}</h3>
+                    <h4 class="descripcion--Platos">${postre.descripción} ($${postre.precio})</h4>`;
                     divPostres.appendChild(div)}
 
 
+// DESAFIO CLASE 9
 
-console.log("prueba")
+let miFormulario = document.getElementById("formulario");
+miFormulario.addEventListener("submit", validarFormulario);
+
+function validarFormulario(e){
+    e.preventDefault();
+    alert("Formulario Enviado");    
+}
+
