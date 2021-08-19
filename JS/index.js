@@ -137,21 +137,21 @@ const bebidas = [
 
 for (const entrada of entradas) {
     let div = document.createElement("div");
-    div.innerHTML = `<img src=${entrada.foto} class="fotos--Menu img-fluid">
+    div.innerHTML = `<img src=${entrada.foto} data-aos="fade-up" class="fotos--Menu img-fluid">
                     <h3 class="nombres--Platos">${entrada.nombre}</h3>
                     <h4 class="descripcion--Platos">${entrada.descripción} ($${entrada.precio})</h4>`;
                     divEntradas.appendChild(div)}
 
 for (const platoPrincipal of platosPrincipales) {
     let div = document.createElement("div");
-    div.innerHTML = `<img src=${platoPrincipal.foto} class="fotos--Menu img-fluid">
+    div.innerHTML = `<img src=${platoPrincipal.foto} data-aos="fade-up" class="fotos--Menu img-fluid">
                     <h3 class="nombres--Platos">${platoPrincipal.nombre}</h3>
                     <h4 class="descripcion--Platos">${platoPrincipal.descripción} ($${platoPrincipal.precio})</h4>`;
                     divPlatosPrincipales.appendChild(div)}
 
 for (const postre of postres) {
     let div = document.createElement("div");
-    div.innerHTML = `<img src=${postre.foto} class="fotos--Menu img-fluid">
+    div.innerHTML = `<img src=${postre.foto} data-aos="fade-up" class="fotos--Menu img-fluid">
                     <h3 class="nombres--Platos">${postre.nombre}</h3>
                     <h4 class="descripcion--Platos">${postre.descripción} ($${postre.precio})</h4>`;
                     divPostres.appendChild(div)}
