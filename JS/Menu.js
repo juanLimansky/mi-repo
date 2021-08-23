@@ -2,12 +2,18 @@
 
 // DESAFIO CLASE 8
 
+// MIS VARIABLES GLOBALES
+
 let divEntradas1 = document.querySelector('#entradas1')
 let divEntradas2 = document.querySelector('#entradas2')
 let divPlatosPrincipales1 = document.querySelector('#platosPrincipales1')
 let divPlatosPrincipales2 = document.querySelector('#platosPrincipales2')
 let divPostres1 = document.querySelector('#postres1')
 let divPostres2 = document.querySelector('#postres2')
+let divCarrito = document.querySelector(`.modal-body`)
+
+
+// MIS ARRAYS
 
 
 const entradas1 = [
@@ -52,13 +58,16 @@ const bebidas = [
     {nombre: "Champagne", precio: 500} 
 ]
 
+// AGREGAR PRODUCTOS AL HTML
+
 for (const entrada of entradas1) {
     let div = document.createElement("div");
     div.innerHTML = `<img src=${entrada.foto} data-aos="fade-up" class="fotos--Menu img-fluid">
                     <h3 class="nombres--Platos">${entrada.nombre}</h3>
                     <h4 class="descripcion--Platos">${entrada.descripción} ($${entrada.precio})</h4>
                     <button id="${entrada.id}" class="btn btn-outline-secondary color--Boton">COMPRAR</button>`;
-                    divEntradas1.appendChild(div)}
+                    divEntradas1.appendChild(div)
+                }
 
 for (const entrada of entradas2) {
     let div = document.createElement("div");
@@ -101,3 +110,38 @@ for (const postre of postres2) {
                     divPostres2.appendChild(div)}
 
 
+// SELECCIONAR BOTONES
+
+const botones = document.getElementsByClassName(`color--Boton`)
+
+
+// AGREGAR COSAS AL CARRITO
+
+const carrito = []
+
+function agregarAlCarrito(){
+    const seleccionado = entradas1.find(entrada => entrada.id == this.id);
+    carrito.push(seleccionado)
+
+    console.log(seleccionado)
+
+
+}
+
+
+for (const boton of botones) {
+    boton.addEventListener("click", agregarAlCarrito)
+}
+
+
+
+
+/*
+for (const element of carrito) {
+    let div = document.createElement(`div`)
+    div.innerHTML = `
+    <h4>${element.nombre}</h4>
+    <p>$${element.precio}</p>`
+
+    divCarrito.appendChild(div)
+} */

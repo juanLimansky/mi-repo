@@ -1,4 +1,4 @@
-
+// PROPIEDADES INDEX + GENÉRICOS
 
 .bg--Header {
 	background-image: url(../Assets/Imagenes/fotoheader.png);
@@ -95,6 +95,9 @@
 .redes--Sociales li a:hover {
 	transform: scale(1.2);
 }
+
+// PROPIEDADES MENÚ
+
 .opciones {
 	justify-content: center;
 }
@@ -185,6 +188,9 @@
 	padding-top: 20px;
 	margin-top: 50px;
 }
+
+// PROPIEDADES CONTACTO
+
 .seccion--contacto {
     font-family: 'Playfair Display', serif;
 	font-style: italic;
@@ -216,6 +222,9 @@ div h4 {
     padding-top: 20px;
     padding-bottom: 16px;
 }
+
+// PROPIEDADES GALERÍA
+
 .titulo--SeccionG {
 	text-align: center;
 	color: #C2B280;
@@ -238,10 +247,7 @@ div h4 {
 h2 span {
     color: #C2B280;
 }
-.titulo--SeccionR {
-	@extend .titulo--Seccion;
-	padding-bottom: 30px;
-}
+
 .fotoR {
 	width: 350px;
 	height: 250px;
@@ -258,9 +264,14 @@ h2 span {
 	align-items: center;
 }
 
+// PROPIEDADES RESERVAS
+
+.titulo--SeccionR {
+	@extend .titulo--Seccion;
+	padding-bottom: 30px;
+}
 .btn {
-	align-self: center;
-	justify-self: center;
+	text-align: center;
 	margin-bottom: 10px;
 }
 

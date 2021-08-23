@@ -234,9 +234,6 @@ div h4 {
 h2 span {
   color: #C2B280; }
 
-.titulo--SeccionR {
-  padding-bottom: 30px; }
-
 .fotoR {
   width: 350px;
   height: 250px;
@@ -251,9 +248,11 @@ h2 span {
   justify-content: center;
   align-items: center; }
 
+.titulo--SeccionR {
+  padding-bottom: 30px; }
+
 .btn {
-  align-self: center;
-  justify-self: center;
+  text-align: center;
   margin-bottom: 10px; }
 
 @media only screen and (max-width: 360px) {
